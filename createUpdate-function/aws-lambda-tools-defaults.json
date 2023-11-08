@@ -1,0 +1,21 @@
+
+{
+    "region" : "us-east-2",
+    "profile" : "default",
+    "configuration" : "Release",
+    "framework"     : "net6.0",
+    "function-name" : "createUpdate-function",
+    "package-type"  : "Zip",
+    "function-handler" : "PollyNotesAPI-CreateUpdate::PollyNotesAPICreateUpdate.Function::FunctionHandler",
+    "function-memory-size" : 512,
+    "function-role"        : "arn:aws:iam::607461207937:role/lambdaPollyRole",
+    "function-timeout"     : 15,
+    "function-runtime"     : "dotnet6",
+    "tracing-mode"         : "PassThrough",
+    "environment-variables" : "\"TABLE_NAME\"=\"Notes\"",
+    "image-tag"             : "",
+    "function-architecture" : "x86_64",
+    "function-subnets"      : "",
+    "function-security-groups" : "",
+    "function-description"     : ""
+}
